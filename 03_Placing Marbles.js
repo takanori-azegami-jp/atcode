@@ -2,10 +2,10 @@
 function Main(input) {
 
 	//文字列から10進数に変換するときはparseIntを使う
-	var a = parseInt(input.charAt(0), 10);
-	var b = parseInt(input.charAt(1), 10);
-	var c = parseInt(input.charAt(2), 10);
-	var d = a + b + c;
+	let a = parseInt(input.charAt(0), 10);
+	let b = parseInt(input.charAt(1), 10);
+	let c = parseInt(input.charAt(2), 10);
+	let d = a + b + c;
 
 	console.log(d);
 }
