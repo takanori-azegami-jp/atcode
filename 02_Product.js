@@ -1,12 +1,12 @@
 // inputに入力データ全体が入る
 function Main(input) {
 	// 1行目がinputに入る
-	tmp = input.split(" ");
+	let tmp = input.split(" ");
 
 	//文字列から10進数に変換するときはparseIntを使う
-	var a = parseInt(tmp[0], 10);
-	var b = parseInt(tmp[1], 10);
-	var c = a * b;
+	let a = parseInt(tmp[0], 10);
+	let b = parseInt(tmp[1], 10);
+	let c = a * b;
 	
 	// 奇数/偶数判定
 	if( c % 2 === 0 ){
