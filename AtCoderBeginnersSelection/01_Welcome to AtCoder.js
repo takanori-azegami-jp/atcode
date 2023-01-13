@@ -5,10 +5,10 @@ function Main(input) {
 	tmp = input[1].split(" ");
 
 	//文字列から10進数に変換するときはparseIntを使います
-	var a = parseInt(input[0], 10);
-	var b = parseInt(tmp[0], 10);
-	var c = parseInt(tmp[1], 10);
-	var s = input[2];
+	let a = parseInt(input[0], 10);
+	let b = parseInt(tmp[0], 10);
+	let c = parseInt(tmp[1], 10);
+	let s = input[2];
 	//出力
 	console.log('%d %s',a+b+c,s);
 

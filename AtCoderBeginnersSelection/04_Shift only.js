@@ -25,7 +25,7 @@ function Main(input) {
 			}
 		}
 		if( d === false){
-			n = n + 1;
+			n++;
 		}else{
 			break;
 		}
