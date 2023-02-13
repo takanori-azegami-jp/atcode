@@ -1,4 +1,5 @@
-# atcode-atCoderbeginnersselection
+# AtCoder
+AtCoder：競技プログラミング
 
 ## コンテスト
 - [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)
