@@ -1,3 +1,7 @@
+/*
+// シカのAtCoDeerくんは二つの正整数a,b を見つけました。a とb の積が偶数か奇数か判定してください。
+*/
+
 // inputに入力データ全体が入る
 function Main(input) {
 	// 1行目がinputに入る
