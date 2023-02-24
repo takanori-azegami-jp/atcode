@@ -7,6 +7,7 @@ function Main(input) {
 	// 1行目がinput[0], 2行目がinput[1], …に入る
 	input = input.split("\n");
 	let tmp = input[0].split(" ");
+	let tmp = input[0].split(" ");
 
 	//文字列から10進数に変換するときはparseIntを使います
 	let a = parseInt(tmp[0], 10);
