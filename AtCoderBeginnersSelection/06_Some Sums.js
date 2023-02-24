@@ -7,24 +7,21 @@ function Main(input) {
 	// 1行目がinput[0], 2行目がinput[1], …に入る
 	input = input.split("\n");
 	let tmp = input[0].split(" ");
-	let tmp = input[0].split(" ");
 
 	//文字列から10進数に変換するときはparseIntを使います
 	let a = parseInt(tmp[0], 10);
 	let b = parseInt(tmp[1], 10);
 	let c = parseInt(tmp[2], 10);
 
-	let s="";
-	let x = 0;
-	let n = 0;
+	let s="",x=0,n=0;
 	for (let i=1; i <= a; i++){
 		s = i.toString();
 		x = 0;
 		//桁数の合計
 		for(let j=0; j < s.length; j++){
-			x = x + parseInt(s[j]);
+			x += parseInt(s[j]);
 		}
-		if( x >= b && x <= c ) n = n + i;
+		if( x >= b && x <= c ) n += i;
 	}
 	//出力
 	console.log(n);

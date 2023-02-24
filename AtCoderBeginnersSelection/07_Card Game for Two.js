@@ -25,9 +25,8 @@ function Main(input) {
 			bSum += x[i];
 		}
 	}
-	let n = aSum - bSum;
 	//出力
-	console.log(n);
+	console.log(aSum - bSum);
 }
 //*この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
 Main(require("fs").readFileSync("/dev/stdin", "utf8"));

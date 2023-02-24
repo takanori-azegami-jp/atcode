@@ -12,17 +12,14 @@ function Main(input) {
 
 	//文字列から10進数に変換するときはparseIntを使います
 	let a = parseInt(input[0], 10);
-	let b = [];
-	let c = 0;
-	let d = false;
-	let n = 0;
+	let b=[], c=0, d=false, n=0;
 	for (let i = 0; i < 200; i++){
 		if ( i === 0 ){
 			c = 1;
 		}else{
 			c = 2 ** i;
 		}
-		for (let j = 0; j < a; j++){
+		for (let j=0; j < a; j++){
 			b[j] = parseInt(tmp[j],10) / c;
 			// 奇数/偶数判定
 			if( b[j] % 2 !== 0 ){
