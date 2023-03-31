@@ -6,9 +6,10 @@
 
 // inputに入力データ全体が入る
 function Main(input) {
-	// 1行目がinput[0], 2行目がinput[1], …に入る
+	// 2行目のinputをスペースで区切って数字をnmusに配列でセットする
 	let nums = input.split('\n')[1].split(' ').map((n) => parseInt(n, 10));
 
+	//　配列の要素が全て2で割りるの、割り切れなくなるまで繰り返す
 	let count = 0;
 	while(nums.every((n) => (n % 2) === 0)) {
 		count++;
